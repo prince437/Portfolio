@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Poppins:wght@300;600;700&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <style>
         * {
             margin: 0px;
@@ -35,10 +36,12 @@
     <div class="container">
         <div class="leftdiv">
             <h3>
-                <h2>Hi </h2>
-                <h2>I'm Prince kumar A <a class="web">
-                        <h1>Student, Devloper<br> & Philospher </h1>
+                <h2 style="font-size: xx-large;">Hi </h2>
+                <h2 style="font-size: xx-large;">I'm Prince a <a class="web">
                     </a></h2>
+
+                <h1><span id="element"></span></h1>
+
             </h3>
 
             <div class="btn">
@@ -53,11 +56,11 @@
     </div>
     <hr class="hrhorizontal">
     <div class="hrvertical1">
-    <hr class="hrvertical">
-    <hr class="hrvertical">
-    <hr class="hrvertical">
-    <hr class="hrvertical">
-</div>
+        <hr class="hrvertical">
+        <hr class="hrvertical">
+        <hr class="hrvertical">
+        <hr class="hrvertical">
+    </div>
     <div class="projects">
         <div class="box1">
             <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ratione repudiandae amet,
@@ -84,6 +87,13 @@
                 perferendis?</p1>
         </div>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student', 'Web Devloper', 'Graphic Designer', "Philospher"],
+            typeSpeed: 40,
+        });
+    </script>
 </body>
 
 </html>

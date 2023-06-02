@@ -10,7 +10,7 @@
     justify-content: space-around;
     margin: 0, 25px;
     color: aliceblue;
-    height: 85px;
+    height: 7vw;
 
 
 }
@@ -49,6 +49,7 @@ nav div ul li a {
 .leftdiv {
     align-items: center;
     justify-content: center;
+    margin: 5px;
 }
 
 .mainimg {
@@ -68,7 +69,7 @@ nav div ul li a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 40px;
+    margin: 30px;
     height: 647px;
 }
 
@@ -207,6 +208,7 @@ nav div ul li a {
     align-items: center;
     align-self: center;
     flex-wrap: wrap;
+    justify-content: center
 }
 .projectheading{
     display: flex;
@@ -220,4 +222,10 @@ nav div ul li a {
     font-family:popins;
     font-weight: bolder;
     
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
 }
