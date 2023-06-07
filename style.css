@@ -83,22 +83,27 @@ nav div ul li a {
 
 .btn {
     display: flex;
-    height: 60px;
+    justify-content: space-between;
+    height: 41px;
     width: 100%;
+   margin-top: 25px;
+    
 
 
 }
 
 .btn button {
     width: 94px;
-    justify-content: space-between;
-    margin: 15px;
+    margin-right: 15px;
     background-color: rgb(10, 10, 127);
+    color: aliceblue;
+    border-radius: 10px;
+    border: aqua
 }
 
-#contactus {
+/* #contactus {
     margin-left: 10px;
-}
+} */
 
 .hrhorizontal {
     margin-top: 10px;
@@ -117,7 +122,6 @@ nav div ul li a {
 }
 
 .box1 {
-    background-color: black;
     border: 2px solid violet;
     padding: 2px;
     text-align: center;
@@ -126,7 +130,6 @@ nav div ul li a {
 }
 
 .box2 {
-    background-color: black;
     border: 2px solid violet;
     padding: 2px;
     text-align: center;
@@ -135,7 +138,6 @@ nav div ul li a {
 }
 
 .box3 {
-    background-color: black;
     border: 2px solid violet;
     margin: 5px;
     text-align: center;
@@ -144,7 +146,6 @@ nav div ul li a {
 }
 
 .box4 {
-    background-color: black;
     border: 2px solid violet;
     padding: 2px;
     text-align: center;
