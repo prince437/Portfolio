@@ -230,3 +230,9 @@ nav div ul li a {
     align-items: center;
     margin: 30px;
 }
+
+.blog-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
