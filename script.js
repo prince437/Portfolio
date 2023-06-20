@@ -1,5 +1,5 @@
 function resumeonclick(){
-    window.open('https://github.com/prince437/')
+    window.open('Resource/resume.pdf')
 }
 function Github(){
     window.open('https://github.com/prince437/')
